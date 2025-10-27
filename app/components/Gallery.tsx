@@ -13,14 +13,13 @@ const galleryImages = [
     location: "Lagos, Nigeria"
   },
   {
-    // Changed to a working Unsplash image
     src: "https://images.unsplash.com/photo-1536064479547-7ee40b74b807?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Healthcare Initiative",
     category: "Healthcare",
     location: "Abuja, Nigeria"
   },
   {
-    src: "https://images.unsplash.com/photo-1567471945805-069e09c11098?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "https://images.unsplash.com/photo-1567471945805-069e09c11098?q=80&w=2074",
     title: "Agricultural Training",
     category: "Agriculture",
     location: "Kano, Nigeria"

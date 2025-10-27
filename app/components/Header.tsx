@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Button } from './ui/button';
 import { Menu, X } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,9 +40,11 @@ export default function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
+              <Link href="#donation">
             <Button className="bg-orange-500 hover:bg-orange-600 text-white transition-colors duration-200">
               Get Involved
             </Button>
+              </Link>
           </div>
 
           {/* Mobile menu button */}

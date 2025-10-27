@@ -4,13 +4,14 @@ import About from './components/About';
 import Gallery from './components/Gallery';
 import Foundations from './components/Foundations';
 import Causes from './components/Causes';
+import Donation from './components/Donation';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Home - Gozi Africa | Empowering Communities Across Africa",
-  description: "Welcome to Gozi Africa. Join our mission to create sustainable change across African communities through education, healthcare, and agricultural initiatives. Support children and build a brighter future.",
+  description: "Welcome to Gozi Africa. Join our mission to create sustainable change across African communities through education, healthcare, and agricultural initiatives. Support children and build a brighter future. Make donations to support our causes.",
   openGraph: {
     title: "Home - Gozi Africa | Empowering Communities Across Africa",
     description: "Welcome to Gozi Africa. Join our mission to create sustainable change across African communities through education, healthcare, and agricultural initiatives.",
@@ -35,6 +36,7 @@ export default function Home() {
         <Gallery />
         <Foundations />
         <Causes />
+        <Donation />
         <Contact />
       </main>
       <Footer />
