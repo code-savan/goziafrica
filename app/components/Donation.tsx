@@ -244,7 +244,7 @@ export default function Donation() {
         </div>
 
         {/* Call to Action */}
-        <Card className="bg-gray-800 text-white border-0">
+        {/* <Card className="bg-gray-800 text-white border-0">
           <CardContent className="p-8 text-center">
             <h3 className="text-2xl font-semibold mb-4">
               Every Donation Makes a Difference
@@ -263,7 +263,7 @@ export default function Donation() {
               </Button>
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
       </div>
     </section>
   );
