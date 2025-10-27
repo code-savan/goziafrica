@@ -113,7 +113,7 @@ export default function Causes() {
               <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
                 Donate Now
               </Button>
-              <Button variant="outline" size="lg" className="border-gray-300 text-white hover:bg-gray-700">
+              <Button variant="outline" size="lg" className="border-gray-300 text-black hover:bg-gray-700 hover:text-white">
                 Volunteer With Us
               </Button>
             </div>
