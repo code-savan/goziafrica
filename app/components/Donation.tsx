@@ -193,7 +193,7 @@ export default function Donation() {
                 {donationMethods.map((method, index) => {
                   const Icon = method.icon;
                   return (
-                    <Card key={index} className="cursor-pointer transition-all duration-200 border border-gray-200 bg-white ">
+                    <Card key={index} className="cursor-pointer transition-all duration-200 border border-gray-200 bg-white">
                       <CardContent className="p-6">
                         <div className="flex items-start space-x-4">
                           <div className={`w-12 h-12 ${method.color} rounded-lg flex items-center justify-center flex-shrink-0`}>
